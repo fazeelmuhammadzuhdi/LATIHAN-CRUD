@@ -17,7 +17,8 @@
                     <form class="intro-newslatter">
                         <input type="text" placeholder="Name">
                         <input type="text" class="last-s" placeholder="E-mail">
-                        <button type="submit" class="btn btn-danger">Login Now</button>
+                        {{-- <button type="submit" class="btn btn-danger">Login Now</button> --}}
+                        <a href="/login" class="btn btn-danger">Login Now</a>
                     </form>
                 </div>
             </div>

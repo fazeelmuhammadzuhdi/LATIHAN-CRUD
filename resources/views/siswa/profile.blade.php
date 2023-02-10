@@ -73,7 +73,7 @@
                         <!-- RIGHT COLUMN -->
 
 
-                        <div class="profile-right">
+                        <div class="profile-right mb-3">
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
                                 Input Nilai
                             </button>
@@ -164,7 +164,7 @@
                     <div class="form-group {{ $errors->has('nilai') ? 'has-error' : '' }}">
                         <label for="nilai">Nilai</label>
                         <input type="text" class="form-control" id="nilai" name="nilai"
-                            placeholder="Nama Depan" value="{{ old('nilai') }}">
+                            placeholder="Masukkan Nilai" value="{{ old('nilai') }}">
 
                         @if ($errors->has('nilai'))
                             <span class="help-block">{{ $errors->first('nilai') }}</span>
